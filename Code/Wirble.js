@@ -45,10 +45,10 @@ function preload() {
 								keys:color(212,214,218),
 							 	buttons:color(136,138,140),
 								squares:color(121,124,126),
-							 	question:loadImage("question_light.png"),
-								stats:loadImage("stats_light.png"),
-								gear:loadImage("gear_light.png"),
-								back:loadImage("back_light.png"),
+							 	question:loadImage("Code/Resources/question_light.png"),
+								stats:loadImage("Code/Resources/stats_light.png"),
+								gear:loadImage("Code/Resources/gear_light.png"),
+								back:loadImage("Code/Resources/back_light.png"),
 								green:color(121,167,107),
 							  yellow:color(198,180,102)};
 	
@@ -60,10 +60,10 @@ function preload() {
 						  keys:color(129,131,132),
 							buttons:color(86,87,88),
 						  squares:color(58,58,60),
-							question:loadImage("question_dark.png"),
-							stats:loadImage("stats_dark.png"),
-							gear:loadImage("gear_dark.png"),
-						  back:loadImage("back_dark.png"),
+							question:loadImage("Code/Resources/question_dark.png"),
+							stats:loadImage("Code/Resources/stats_dark.png"),
+							gear:loadImage("Code/Resources/gear_dark.png"),
+						  back:loadImage("Code/Resources/back_dark.png"),
 							green:color(97,139,85),
 						  yellow:color(177,159,76)};
 }

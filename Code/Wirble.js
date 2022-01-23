@@ -45,10 +45,10 @@ function preload() {
 								keys:color(212,214,218),
 							 	buttons:color(136,138,140),
 								squares:color(121,124,126),
-							 	question:loadImage("Code/Resources/question_light.png"),
-								stats:loadImage("Code/Resources/stats_light.png"),
-								gear:loadImage("Code/Resources/gear_light.png"),
-								back:loadImage("Code/Resources/back_light.png"),
+							 	question:loadImage("question_light.png"),
+								stats:loadImage("stats_light.png"),
+								gear:loadImage("gear_light.png"),
+								back:loadImage("back_light.png"),
 								green:color(121,167,107),
 							  yellow:color(198,180,102)};
 	
@@ -60,10 +60,10 @@ function preload() {
 						  keys:color(129,131,132),
 							buttons:color(86,87,88),
 						  squares:color(58,58,60),
-							question:loadImage("Code/Resources/question_dark.png"),
-							stats:loadImage("Code/Resources/stats_dark.png"),
-							gear:loadImage("Code/Resources/gear_dark.png"),
-						  back:loadImage("Code/Resources/back_dark.png"),
+							question:loadImage("question_dark.png"),
+							stats:loadImage("stats_dark.png"),
+							gear:loadImage("gear_dark.png"),
+						  back:loadImage("back_dark.png"),
 							green:color(97,139,85),
 						  yellow:color(177,159,76)};
 }
@@ -348,7 +348,7 @@ function mouseClicked() {
 		textSize(squareSize/1.8);
 		textStyle(BOLD);
 		noStroke();
-		if (mouseX > width/2+textWidth("WIRBLE")*1.7-textWidth("M")*11/12 && mouseX < width/2+textWidth("WIRBLE")*1.7-textWidth("M")*11/12+textWidth("M")*2/3) {
+		if (mouseX > width/2+wid/2-textWidth("M")*11/12 && mouseX < width/2+wid/2-textWidth("M")*11/12+textWidth("M")*2/3) {
 			if (mouseY > (textWidth("M")*1.3)/2-textWidth("M")*1/3 && mouseY < (textWidth("M")*1.3)/2-textWidth("M")*1/3+textWidth("M")*2/3) {
 				toggleTheme();
 			}
